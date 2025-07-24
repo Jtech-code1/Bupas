@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bupa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="active"><a href="#">Individual & <br> families</a></li>
+            <li class="link2"><a href="#">Business</a></li>
+            <li class="link3"><a href="#">Intermediaries</a></li>
+            <li class="link4"><a href="#">Healthcare <br> professionals</a></li>
+            <li class="link5"><a href="#">Find a healthcare professional or <br>service</a></li>
+            <li class="link6"><a href="#"><i class="fa-solid fa-clipboard-question" style="color: #ffffff;"></i> &nbsp;&nbsp;&nbsp; <span id="helpsupport">Help & <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; support</a></li></span>
+            <li class="link7"><a href="#"><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i> <span id="contactus">Contact <br>us</span></a></li>
+            
+            <div class="searchpa">
+               <button>
+                <span class="icon">
+                    <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/v-small-icon/header-icons/navy/search-nav-vector.svg?h=24&iar=0&w=24&hash=A6AF8EB1BE895ED62C847794097E8AC8" alt="iconic">
+
+                </span>
+                <span class="text">
+                    <span id="rong"><strong>Search</strong> <br><strong> </span>
+                    <span class="apbu">&nbsp;&nbsp;&nbsp;&nbsp; <span id="papu">Bupa</span></span></strong>
+
+                </span>
+               </button>
+              
+            </div>
+            
+           <li class="link8">
+            <span class="link8img">
+                <img src="data:image/svg+xml;utf8,%3Csvg%20width%3D%2229%22%20height%3D%2229%22%20viewBox%3D%220%200%2029%2029%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M14.4161%200.642517C11.6883%200.642517%209.02175%201.4514%206.75366%202.96689C4.48558%204.48237%202.71783%206.63639%201.67394%209.15654C0.63006%2011.6767%200.356933%2014.4498%200.8891%2017.1252C1.42127%2019.8006%202.73483%2022.2581%204.66367%2024.1869C6.59252%2026.1158%209.05002%2027.4293%2011.7254%2027.9615C14.4008%2028.4937%2017.1739%2028.2205%2019.6941%2027.1767C22.2142%2026.1328%2024.3682%2024.365%2025.8837%2022.0969C27.3992%2019.8289%2028.2081%2017.1623%2028.2081%2014.4345C28.2081%2012.6233%2027.8513%2010.8299%2027.1582%209.15654C26.4651%207.48322%2025.4492%205.9628%2024.1685%204.6821C22.8878%203.40139%2021.3674%202.38548%2019.6941%201.69237C18.0207%200.999258%2016.2273%200.642517%2014.4161%200.642517ZM7.52009%2024.7785V20.8547C7.52009%2019.7375%208.63724%2019.1376%2010.2785%2018.4825C11.5033%2019.327%2012.9559%2019.7793%2014.4437%2019.7793C15.9314%2019.7793%2017.384%2019.327%2018.6089%2018.4825C20.2225%2019.1376%2021.3673%2019.7375%2021.3673%2020.8547V24.7785C19.326%2026.1424%2016.9262%2026.8703%2014.4713%2026.8703C12.0163%2026.8703%209.61649%2026.1424%207.57526%2024.7785H7.52009ZM13.692%2016.4275C14.2023%2016.5654%2014.7402%2016.5654%2015.2505%2016.4275C15.6882%2017.0502%2016.2999%2017.5299%2017.009%2017.8067C16.2239%2018.2102%2015.354%2018.4207%2014.4713%2018.4207C13.5886%2018.4207%2012.7186%2018.2102%2011.9335%2017.8067C12.6426%2017.5299%2013.2543%2017.0502%2013.692%2016.4275ZM11.3129%209.60732C11.3129%208.57292%2011.6163%206.15932%2014.4161%206.15932C17.2159%206.15932%2017.5193%208.57292%2017.5193%209.60732C17.5193%2011.9795%2016.7194%2014.0552%2015.5194%2014.8069L15.085%2015.0138C14.6514%2015.1619%2014.1808%2015.1619%2013.7472%2015.0138L13.3127%2014.8069C12.1128%2014.0552%2011.3129%2011.9795%2011.3129%209.60732ZM22.6913%2023.6614V20.8547C22.6913%2018.6204%2020.4846%2017.7446%2018.7054%2017.0412C17.8878%2016.7912%2017.1315%2016.3731%2016.4849%2015.8137C18.0917%2014.6345%2018.9261%2012.1175%2018.9261%209.60732C18.9261%206.75237%2017.2572%204.78012%2014.4437%204.78012C11.6301%204.78012%209.96127%206.75237%209.96127%209.60732C9.96127%2012.1175%2010.7957%2014.6345%2012.4025%2015.8137C11.7478%2016.3764%2010.9817%2016.7947%2010.1544%2017.0412C8.34761%2017.7446%206.14089%2018.6204%206.14089%2020.8547V23.6614C4.26714%2021.9854%202.94642%2019.7801%202.35349%2017.3371C1.76056%2014.8941%201.92338%2012.3287%202.8204%209.98025C3.71741%207.63183%205.30634%205.61112%207.37694%204.18552C9.44753%202.75991%2011.9022%201.99661%2014.4161%201.99661C16.93%201.99661%2019.3846%202.75991%2021.4552%204.18552C23.5258%205.61112%2025.1148%207.63183%2026.0118%209.98025C26.9088%2012.3287%2027.0716%2014.8941%2026.4787%2017.3371C25.8858%2019.7801%2024.565%2021.9854%2022.6913%2023.6614Z%22%20fill%3D%22%2300335B%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" alt="">
+            </span>
+            <span class="link8sign">
+                <span class="sign">Sign in</span>
+            </span>
+        </li>
+        <li class="menubar">
+            <span class="menu1">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <span class="menutag" style="color:#022540;">Menu</span>
+        </li>
+           
+        </ul>
+
+    </div>
+
+    <div class="nav-section">
+        <div class="items"><img src="https://www.bupa.co.uk/~/media/Images/global/components/common/images/bupa-logo.svg" alt="bupah" id="health-bupa"></div>
+        <div class="items a"><a href="#">Health Insurance</a></div>
+        <div class="items b"><a href="#">Health subscriptions</a></div>
+        <div class="items c"><a href="#">Dental</a></div>
+        <div class="items d"><a href="#">Care homes</a></div>
+        <div class="items e"><a href="#">Pay asyou go</a></div>
+        <div class="items f"><a href="#">Health Information</a></div>
+
+    </div>
+    <div class="header-background">
+        <div class="header1">
+              <h1>Private <br>healthcare</h1><br></span>
+        <p>Your wellbeing,on your terms.This is health.</p>
+
+        </div>
+      
+
+    </div>
+   
+    <div class="ready">
+        <div class="ready1">
+              <h4>Be ready for life's surprise from £2.30 a day</h4><br>
+        <p>Comprehensive cover could  cost a 34-year -old,non-smoker living in London <ins>£2.30 a day</ins> its healthcare <br>that works around your wallet.</p>
+
+        </div>
+        <div class="quotation">
+              <button class="quote-button">
+    <strong>Get your quote</strong>
+    <i class="fas fa-chevron-right"></i>
+  </button>
+
+        </div>
+    </div>
+
+    <div class="dental-section">
+        <div class="dental-care">
+            <h4>Dental care for healthier,happier smiles </h4><br>
+            <p>You don't need health insurance to visit a Bupa dentist. With over 360 dental practices across the UK and <br>multiple ways to pay, there are even more reasons to smile.</p>
+        </div>
+
+        <div class="dentist-button">
+            <button class="quote-button">
+        <strong>Find a dentist</strong> 
+    <i class="fas fa-chevron-right"></i>
+  </button>      
+
+        </div>
+
+    </div><br>
+    <div class="what-help">
+        <h1>What can we help you with today?</h1><br><br>
+    </div>
+
+    <div class="help-today">
+        
+        <div class="help">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/icons-60x60/hands.svg" alt="handshake">
+            <h3>Health Insurance</h3><br>
+            <p>Feel confident building health <br>insurance around your budget. Get <br>flexible insurance to cover you, your <br>partner and family members.</p><br>
+            <a href="#">What is health insurance?</a><br><br>
+            <a href="#">What does health insurance cost?</a><br><br>
+            <button class="health-button">
+    Get an insurance quote
+    <i class="fas fa-chevron-right"></i>
+  </button> 
+        </div>
+        <div class="help">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/icons-60x60/heart-on-hands.svg" alt="love-hand">
+            <h3>Health subscriptions</h3><br>
+            <p>Fast,affordable healthcare. Choose <br>from two subscriptions and access <br>remote GPs, mental health support, <br>physios and more.</p><br>
+            <a href="#">Bupa Well+ Bronze</a><br><br>
+            <a href="#">Bupa Well+ Silver</a><br><br>
+            <button class="health-button">
+    Health subscriptions
+    <i class="fas fa-chevron-right"></i>
+  </button> 
+            
+        </div>
+        <div class="help">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/icons-60x60/pound-on-hands.svg" alt="pounds-hand">
+            <h3>Pay as you go healthcare</h3><br>
+            <p>No insurance,no problem. Get quick <br>and easy access to our range of <br>healthcare services. Just pay for what <br>you need.</p><br>
+            <a href="#">Book a health assessment</a><br><br>
+            <a href="#">Book a private GP appointments</a><br><br>
+              <button class="health-button">
+    Pay as you go service
+    <i class="fas fa-chevron-right"></i>
+  </button> 
+
+        </div>
+
+
+    </div><br><br>
+
+    <div class="dental-cost">
+        <div class="cost">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/icons-60x60/dental.svg" alt="teeth">
+            <h3>Dental services</h3>
+            <p>looking after your teeth and gums <br>makes fora healthy body and mind. <br>Find a dentist,book online,explore <br>payment options,get business dental <br>insurance or make a claim.</p><br>
+            <a href="#">Find a Bupa dentist</a><br><br>
+            <a href="#">Dental insurance</a><br><br>
+              <button class="health-button">
+                More on Bupa dental
+    
+    <i class="fas fa-chevron-right"></i>
+  </button> 
+        </div>
+        <div class="cost">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/icons-60x60/care-home.svg" alt="house">
+            <h3>Care homes</h3>
+            <p>it's more than choosing a care home... <br>its emotional support,having your <br>needs met, and a good quality of life.</p><br>
+            <a href="#">What type of care do i need?</a><br><br>
+            <a href="#">Care home costs</a><br><br>
+             <button class="health-button">
+                More on Bupa Care services
+    
+    <i class="fas fa-chevron-right"></i>
+  </button>
+
+        </div>
+        <div class="cost">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/icons/svg/magnifying-glass-blue.svg" alt="mirror">
+            <h3>Free health information</h3>
+            <p>The more you know,the more you can <br>do. Explore our library of conditions, <br>treatment and healthy living.</p> <br>
+            <a href="#">A-Z of conditions and treatments</a><br><br>
+            <a href="#">Visit our health blog</a><br><br>
+             <button class="health-button">
+                Find information on health
+                
+    
+    <i class="fas fa-chevron-right"></i>
+  </button>
+        </div>
+
+    </div>
+
+    <div class="host-digital">
+        <h2><span style="color:white">Blua. This is</span> <span style="color:#0079C8">Digital</span> <span style="color:white;">health</span></h2><br>
+        <div class="digital-health">
+        
+        <div class="digital">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/man-in-bath-tub.jpg" alt="remote">
+            <div class="ra"><h4>Remote appointments</h4><br>
+                <p>Fast access to a GP when it suits you.</p>
+            </div>
+        </div>
+        <div class="digital">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/digital-appointment-at-home.jpg" alt="online">
+            <div class="phy"><h4>Physiotherapy</h4><br>
+                <p>Online sessions for added flexibility</p>
+            </div>
+        </div>
+        <div class="digital">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/fitness.jpg" alt="exercise">
+            <div class="fit"><h4>Fitness</h4>
+            <p>On-demand exercise at your fingertips</p>
+            </div>
+        </div>
+
+    </div><br><br>
+    <button class="blua">
+               <strong>Explore digital health</strong> 
+    
+    <i class="fas fa-chevron-right"></i>
+  </button>
+
+    </div><br><br>
+
+    <!-- <button class="talk-us">
+
+       <i class="fa-solid fa-comments" style="color: #ffffff;"></i> Talk to us 
+        
+
+    </button> -->
+
+    <div class="supporting">
+        <h2>Supporting your health</h2><br><br>
+        <div class="supporting1">
+            <div class="support">
+                <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/mum-cuddling-children-in-bed.jpg" alt="children">
+                <h3>Health insurance for all the <br>family</h3><br>
+                <h4>Support for every stage of family life</h4>
+                <p>With Bupa Family <sup>+</sup>, pay for your eldest <br>child under 20years old and we'll cover all <br> younger children, no matter how many you add. for free.</p><br><br>
+                <button class="insurance-button">
+                    More on family health insurance <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="support elder">
+                <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/dental-plan-for-citizens.jpg" alt="elder">
+                <h3>Get a free Cash Plan with <br>small business health <br>insurance</h3><br>
+                <h4>Business health is cover that works as hard <br>as your team</h4>
+                <p>Get a free Cash Plan in your first year of <br>small business health insurance. for new <br>and switching customers only. Offer ends 31 July 2025. <a href="#">T&Cs apply</a></p>
+                <button class="insurance-button">
+                    Free Cash Plans for small business<i class="fas fa-chevron-right"></i>
+                </button>
+                
+            </div>
+            <div class="support">
+                <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/girl-meditating-with-her-eyes-closed.jpg" alt="girl">
+                <h3>Thers's a health assessment <br>for everyone</h3><br>
+                <h4>compare health assessments</h4><br>
+                <p>With six different assessments to <br>choose from,some on 0% finance,we've <br>got plenty of options to suit your needs <br>and lifestyle</p> <br><br>
+                <button class="insurance-button">
+                    More on health assessment options<i class="fas fa-chevron-right"></i>
+                </button>
+
+            </div>
+            <div class="support">
+                <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/360-width/elderly-woman-in-class-smiling.jpg" alt="mama"><br>
+                <h3>Health isn't counting the <br>years,its living them in our care homes</h3><br>
+                It doesn't matter if you're 65 or 105 - <br>you're still you.
+                <p>We believe it is never too late to explore <br>new things,meet new friends, discover <br>hidden talents or enjoy every moment of <br>the thingsyou hove the most.</p>
+                <br><br>
+                 <button class="insurance-button">
+                    More on care homes<i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="support">
+                <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/woman-drinking-water-in-park.jpg" alt="water-girl"><br>
+                <h3>Your routine for a healthier <br>happier smile</h3><br>
+                <h4>Start yourdental payment plan today</h4><br>
+                <p>Keep on top of your dental health with a <br>monthly payment plan foryear-round <br>routine care.Spread thecost ofcheck-ups <br>and hygiene appointments and save on <br>additional treatments and services.</p><br><br>
+                <button class="insurance-button">
+                    More on Bupa Smile Plan<i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="support">
+                <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/bupa-table-thumbnail.jpg" alt="guy"><br>
+                <h3>It's time to talk family mental <br>health</h3><br>
+                <h4>Bring mental health to the family table</h4><br>
+                <p>Families don't talk about mental health <br>enough,which is why we're helping real <br>families share and supprt each other</p>
+                <br><br>
+                <button class="insurance-button">
+                    More on mental health at home<i class="fas fa-chevron-right"></i>
+                </button>
+               
+            </div>
+
+        </div>
+
+    </div><br>
+
+    <div class="digital-account">
+        <div class="account simple">
+            <h2>Keep it simple with a digital account</h2><br>
+            <p>Get easy to our apps and online services with a single,secure <br>account. it's all your healthcare and benefits with just one set of sign in <br>details</p><br>
+            <button class="dg-account">
+                More about your digital account <i class="fas fa-chevron-right"></i>
+
+
+            </button>
+        </div>
+        <div class="account">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/content-block/digital-account-laptop-mobile.jpg" alt="lappy">
+        </div>
+
+
+    </div>
+
+    <!-- <div class="health-hands">
+        <div class="health-hands1">
+            <h2>Your health in your hands</h2>
+            <p>Health is so many things, it's a lot to keep on top of .Our health articles are here to provide information,guidance and advice.</p>
+        </div>
+        <div class="health-hdd">
+            <div class="health-hd1">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/360-width/using-phone-on-bed.jpg" alt="legway">
+            <h4>How to keep an <br>endometriosis pain and <br>symptom diary <br></h4>
+            <p>if you suspect you may have <br>endometriosis, a symptom and pain diary <br>may help you seek the right treatment. <br>We explore how to keep a diary and what <br>to do with your results.</p><br>
+            <button class="pain-symptoms">
+                Endometriosis pain and symptom <br>diaries
+                <i class="fas fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+        <div class="health-hd1">
+            <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/360-width/woman-sat-in-chair-smiling.jpg" alt="michelle">
+            <h4>Living with endometriosis: <br>Michelle Ackerley</h4>
+            <p>TV and radio presenter Michelle Ackerley <br>talks about her journey with <br>endometriosis and share</p><br>
+             <button class="pain-symptoms">
+                Living with endometriosis
+                <i class="fas fa-chevron-right"></i>
+
+            </button>
+        </div>
+        <div class="health-hd1"></div>
+        <img src="https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/Link-box-images/link-box-image-33-percent/360-width/woman-eating-breakfast.jpg" alt="female">
+        <h4>Fertility and endometriosis</h4><br><br>
+        <p>Having endometriosis an mean you're <br>more likely to have difficulties getting <br>pregnant. In our article,our Clinical Lead <br>for Women's health Dr Sam Wild,aims to <br>answer common questions about <br>endometriosis ,fertility and pregnacy</p><br><br>
+          <button class="pain-symptoms">
+                Fertility and endometriosis
+                <i class="fas fa-chevron-right"></i>
+
+            </button>
+
+
+    </div>
+
+        </div>
+         -->
+    
+    
+</body>
+</html>

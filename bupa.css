@@ -1,0 +1,1072 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root{
+--primary:black;
+--primary1:white;
+--primary2:blue;
+}
+.navbar ul{
+display:flex;
+justify-content: space-evenly;
+background-color:var(--primary);
+}
+.navbar li{
+    list-style: none;
+    padding:0px;
+    
+}
+.navbar a{
+    text-decoration:none;
+    color:var(--primary);
+    display:block;
+    color:var(--primary1);
+    padding-top:10px;
+    border-radius:10px;
+   
+}
+.active{
+    background-color:var(--primary1);
+    text-align:center;
+    border:2px solid var(--primary1);
+    margin-left:-17px;  
+}
+.active a{
+color:var(--primary);
+padding-right:30px;
+padding-left:30px
+
+}
+.link5{
+    text-align:center;
+}
+.link6{
+    text-align:center;
+    
+}
+.link7{
+    text-align:center;
+    
+    
+}
+.nav-section{
+    display:flex;
+    margin-left:175px;
+    margin-top:20px;
+}
+.nav-section a{
+    padding-left:40px;
+    position:relative;
+    top:25px;
+    text-decoration:none;
+    color:var(--primary);
+    
+}
+.digital-health{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.host-digital{
+    background-color:#0D1846;
+    padding-top:40px;
+    margin-top:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.ra{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    
+}
+.phy{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+
+
+}
+.fit{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+}
+.talk-us{
+    background-color:#00548C;
+    color:white;
+    border-radius:20px;
+    border:2px solid #00548C;
+}
+.talk-us:hover{
+    background-color:#0D1846;
+    cursor:pointer;
+     position: fixed;
+
+  
+
+}
+.blua{
+    display:flex;
+    width:200px;
+    color:#00548C;
+    margin:0 auto;
+    border-radius: 10px;
+}
+.blua:hover{
+    background-color:#00548C;
+    color:white;
+}
+.host-digital h2{
+    text-align:center;
+}
+.ready{
+    background-color:#DDEDF8;
+    padding:30px;
+    display:flex;
+    justify-content: space-around;
+}
+.quote-button{
+    background-color:#022540;
+    color:white;
+    
+}
+#health-bupa{
+    width:60px;
+}
+
+.menubar{
+    visibility: hidden;
+    display:flex;
+    
+    
+}
+
+.searchpa{
+    display:flex;
+    text-align:center;
+}
+#sp{
+    width:150px;
+
+}
+button{
+    padding:15px;
+    width:150px;
+}
+#babap{
+    position:relative;
+    left:70px;
+    width:30px;
+}
+
+.link8sign{
+    text-align:center;
+    position:relative;
+    top:25px;
+    justify-content: space-between;
+    color:white;
+}
+
+.link8{
+display:flex;
+}
+.dental-section{
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+    background-color: #DDEDF8;
+    margin-top:30px;
+    padding:20px;
+}
+
+.link8img img{
+    position:relative;
+    top:20px;
+}
+#bupasearch{
+    text-align:center;}
+#searches{
+    position:relative;
+    right:30px;
+    top:15px;
+}
+.what-help{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.help-today{
+    display:flex;
+    justify-content: space-evenly;
+}
+.health-button{
+    background-color:#00548C;
+    color:white;
+    width:250px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:600;
+}
+.health-button:hover{
+    background-color:#022540;
+    cursor:pointer;
+}
+.help{
+    border:2px solid #F3F5F8;
+    background-color:#F3F5F8;
+    padding:30px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.dental-cost{
+    display:flex;
+    justify-content: space-evenly;
+}
+.cost{
+     border:2px solid #F3F5F8;
+    background-color:#F3F5F8;
+    padding:30px;
+    font-family: "Roboto", sans-serif;
+}
+.cost a{
+    font-weight:600;
+    color:black;
+}
+.help a{
+    color:black;
+    font-weight:600;
+}
+.header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/mobile-hero-images/woman-smiling-sat-on-the-car-mobile-image.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    width: 100%;
+    
+}
+.header1{
+    border:2px solid white;
+    width:500px;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.79);
+    position:relative;
+    left:40px;
+    top:40px; 
+    padding:50px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.header1 h1{
+    font-size:50px;
+    color:#0079C8;
+    font-family:
+}
+.health-hdd{
+    display:flex;
+}
+.header1 p{
+    font-size:20px;
+    font-weight:600;
+}
+.supporting1{
+    display:grid;
+    grid-template-columns: repeat(3,450px);
+    align-items: center;
+    justify-content: center;
+    background-color:#F3F5F8;
+}
+.supporting h2{
+    text-align:center;
+}
+.insurance-button{
+    background-color:white;
+    border:2px solid white;
+    width:300px;
+    color:#00548C;
+    font-weight:600;
+}
+.insurance-button:hover{
+    text-decoration: underline;
+}
+.support{
+    background-color:#FFFFFF;
+    border:2px solid #FFFFFF;
+}
+.digital-account{
+    display:flex;
+    justify-content: center;
+    background-color:#F5F5F3;
+    padding-top:60px;
+    gap:50px;
+}
+.simple{
+    position:relative;
+    top:40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.dg-account{
+    border:2px solid #022540;
+    background-color:#F5F5F3;
+    width:250px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+@media(max-width:1103px){
+    #helpsupport{
+        display:none;
+    }
+    #contactus{
+        display:none;
+    }
+    button{
+    padding:0px;
+    width:50px;
+    height:50px;
+    border-radius:10px;
+    position:relative;
+    top:50px;
+    left:120px; 
+}
+#rong{
+    display:none;
+}
+#papu{
+    display:none;
+}
+.link6{
+    margin-top:45px;
+    font-size:30px;
+
+}
+.link6 i{
+    position:relative;
+    left:120px;
+    font-size:40px;
+}
+.link7{
+    position:relative;
+    top:50px;
+    font-size:30px;
+    left:100px;
+
+}
+.link8{
+display:flex;
+top:27px;
+background-color:blue;
+position:relative;
+left:115px;
+}
+.navbar ul{
+display:flex;
+justify-content: space-evenly;
+background-color:var(--primary);
+padding:30px;
+}
+.active{
+    background-color:var(--primary1);
+    text-align:center;
+    border:2px solid var(--primary1);
+    position:relative;
+    left:-30px;
+    top:-27px;
+
+}
+.header1{
+    border:2px solid white;
+    width:500px;
+    border-radius:10px;
+    background-color: white;
+    position:relative;
+    left:20px;
+    top:100px; 
+    padding:20px;
+}
+.ready{
+    background-color:#DDEDF8;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.quote-button{
+    background-color:#022540;
+    color:white;
+    width:150px;
+    border-radius:5px;
+    position:relative;
+    top:4px;
+    left:0px;
+
+    
+}
+.dental-section{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    top:100px;
+   
+}
+.dental-cost{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.help-today{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.health-button{
+    background-color:#00548C;
+    color:white;
+    width:250px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:600;
+}
+.what-help{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    display:block;
+}
+.digital-health{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+
+}
+
+}
+
+@media(max-width:416px){
+    .link8{
+        flex-direction:column;
+        position:relative;
+        top:14px;
+        background-color:white;
+        background-color:none;
+    }
+    .link8sign{
+    text-align:center;
+    position:relative;
+    top:12px;
+    justify-content: space-between;
+    background-color:none;
+    display:flex;
+    
+}
+#rong{
+    display:block;
+    position:relative;
+    left:18px;
+}
+.navbar ul{
+display:flex;
+justify-content: space-evenly;
+background-color:var(--primary1);
+}
+.menutag {
+    color:blue;
+}
+
+.sign{
+    color:#022540;
+    position:relative;
+    top:10px;
+}
+.menubar{
+    visibility: visible;
+    flex-direction:column;
+    flex-wrap:wrap;
+    position:relative;
+    left:80px;
+    top:30px;
+}
+.menu1 i{
+    font-size:40px;
+    color:#022540;
+}
+button{
+     position:relative;
+     top:40px;
+     border:2px solid white;
+     background-color:white;
+     
+}
+#papu{
+    display:none;
+}
+.searchpa{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.icon{
+    display:flex;
+    position:relative;
+    left:30px; 
+    top:-5px;
+}
+.icon img{
+    width:35px;
+    position:relative;
+    left:-10px;
+    
+}
+.active{
+    display:none;
+}
+.link2{
+    display:none;
+}
+.link3{
+    display:none;
+}
+.link4{
+    display:none;
+}
+.link5{
+    display:none;
+}
+.link6{
+    display:none;
+}
+.link7{
+    display:none;
+}
+.header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/mobile-hero-images/woman-smiling-sat-on-the-car-mobile-image.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 200px;
+    width: 100%;
+    position:relative;
+    top:-60px;
+    
+}
+.header1{
+    border:2px solid white;
+    width:420px;
+    border-radius:10px;
+    background-color:  rgba(255, 255, 255, 0.79);
+    position:relative;
+    left:10px;
+    top:140px; 
+    padding:10px;
+}
+.header1 h1{
+    font-size:60px;
+    color:;
+}
+.header1 p{
+    font-size:25px;
+    font-weight:600;
+}
+#health-bupa{
+    width:60px;
+    position:relative;
+    top:-80px;
+    left:-160px;
+}
+.nav-section{
+    display:flex;
+   
+}
+.items a{
+    display:none;
+}
+.items b{
+    display:none;
+}
+.items c{
+    display:none;
+}
+.items d{
+    display:none;
+}
+.items e{
+    display:none;
+}
+.items f{
+    display:none;
+}
+.quote-button{
+    background-color:#022540;
+    color:white;
+    width:150px;
+    border-radius:5px;
+    position:relative;
+    top:4px;
+    left:0px;
+    
+}
+.ready{
+    background-color:#DDEDF8;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    position:relative;
+    top:150px;
+}
+.dental-section{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    top:100px;
+   
+}
+.dental-cost{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.health-button{
+    background-color:#00548C;
+    color:white;
+    width:250px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:600;
+    margin-left:-120px;
+    
+}
+.digital-health{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    
+
+}
+.digital-health img{
+    margin:0 auto;
+    display:flex;
+}
+
+/* .help-today{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top:100px;
+} */
+ .ra{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    margin-left:90px;
+    
+}
+.phy{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    margin-left:90px;
+}
+.fit{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    margin-left:90px;
+}
+.blua{
+    display:flex;
+    width:150px;
+    color:#00548C;
+    margin:0 auto;
+    position:relative;
+    top:-10px;
+    left:30px;
+    text-align:center;
+    padding-top:10px;
+}
+.supporting1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.insurance-button{
+    background-color:white;
+    border:2px solid white;
+    width:250px;
+    color:#00548C;
+    font-weight:600;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+.elder{
+    position:relative;
+    left:0px;
+    width:370px;
+    
+}
+.digital-account{
+    display:flex;
+    flex-direction:column;
+    
+}
+.dg-account{
+    border:2px solid #022540;
+    background-color:#F5F5F3;
+    width:250px;
+    border-radius:10px;
+    position:relative;
+    top:0px;
+    left:10px;
+    border-radius:5px;
+    
+
+}
+.account img{
+    
+}
+.simple{
+    position:relative;
+    top:40px;
+    padding:10px;
+}
+
+}
+@media(max-width:391px){
+    .link8{
+        flex-direction:column;
+        position:relative;
+        top:14px;
+        background-color:white;
+        background-color:none;
+    }
+    .link8sign{
+    text-align:center;
+    position:relative;
+    top:12px;
+    justify-content: space-between;
+    background-color:none;
+    display:flex;
+    
+}
+#rong{
+    display:block;
+    position:relative;
+    left:18px;
+}
+.navbar ul{
+display:flex;
+justify-content: space-evenly;
+background-color:var(--primary1);
+}
+.menutag {
+    color:blue;
+}
+
+.sign{
+    color:#022540;
+    position:relative;
+    top:10px;
+}
+.menubar{
+    visibility: visible;
+    flex-direction:column;
+    flex-wrap:wrap;
+    position:relative;
+    left:80px;
+    top:30px;
+}
+.menu1 i{
+    font-size:40px;
+    color:#022540;
+}
+button{
+     position:relative;
+     top:40px;
+     border:2px solid white;
+     background-color:white;
+     
+}
+#papu{
+    display:none;
+}
+.searchpa{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.icon{
+    display:flex;
+    position:relative;
+    left:30px; 
+    top:-5px;
+}
+.icon img{
+    width:35px;
+    position:relative;
+    left:-10px;
+    
+}
+.active{
+    display:none;
+}
+.link2{
+    display:none;
+}
+.link3{
+    display:none;
+}
+.link4{
+    display:none;
+}
+.link5{
+    display:none;
+}
+.link6{
+    display:none;
+}
+.link7{
+    display:none;
+}
+.header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/mobile-hero-images/woman-smiling-sat-on-the-car-mobile-image.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 200px;
+    width: 100%;
+    position:relative;
+    top:-60px;
+    
+}
+.header1{
+    border:2px solid white;
+    width:420px;
+    border-radius:10px;
+    background-color:  rgba(255, 255, 255, 0.79);
+    position:relative;
+    left:10px;
+    top:140px; 
+    padding:10px;
+}
+.header1 h1{
+    font-size:60px;
+    color:;
+}
+.header1 p{
+    font-size:25px;
+    font-weight:600;
+}
+#health-bupa{
+    width:60px;
+    position:relative;
+    top:-80px;
+    left:-160px;
+}
+.nav-section{
+    display:flex;
+   
+}
+.items a{
+    display:none;
+}
+.items b{
+    display:none;
+}
+.items c{
+    display:none;
+}
+.items d{
+    display:none;
+}
+.items e{
+    display:none;
+}
+.items f{
+    display:none;
+}
+.quote-button{
+    background-color:#022540;
+    color:white;
+    width:150px;
+    border-radius:5px;
+    position:relative;
+    top:4px;
+    left:0px;
+    
+}
+.ready{
+    background-color:#DDEDF8;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    position:relative;
+    top:150px;
+}
+.dental-section{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    top:100px;
+   
+}
+.dental-cost{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.health-button{
+    background-color:#00548C;
+    color:white;
+    width:250px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:600;
+    margin-left:-120px;
+    
+}
+.digital-health{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    
+
+}
+.digital-health img{
+    margin:0 auto;
+    display:flex;
+}
+
+/* .help-today{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top:100px;
+} */
+ .ra{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    margin-left:90px;
+    
+}
+.phy{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    margin-left:90px;
+}
+.fit{
+    width:360px;
+    background-color:white;
+    border:2px solid white;
+    height:100px;
+    position:relative;
+    top:-5px;
+    text-align:center;
+    margin-left:90px;
+}
+.blua{
+    display:flex;
+    width:150px;
+    color:#00548C;
+    margin:0 auto;
+    position:relative;
+    top:-10px;
+    left:30px;
+    text-align:center;
+    padding-top:10px;
+}
+.supporting1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.insurance-button{
+    background-color:white;
+    border:2px solid white;
+    width:250px;
+    color:#00548C;
+    font-weight:600;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+.elder{
+    position:relative;
+    left:0px;
+    width:370px;
+    
+}
+.elder p{
+    
+}
+.elder img{
+    margin-left:0px;
+}
+.digital-account{
+    display:flex;
+    flex-direction:column;
+    
+}
+.dg-account{
+    border:2px solid #022540;
+    background-color:#F5F5F3;
+    width:250px;
+    border-radius:10px;
+    position:relative;
+    top:0px;
+    left:10px;
+    border-radius:5px;
+    
+
+}
+.account img{
+    
+}
+.simple{
+    position:relative;
+    top:40px;
+    padding:10px;
+}
+
+}
