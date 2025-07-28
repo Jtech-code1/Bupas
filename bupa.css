@@ -1,1072 +1,1238 @@
 *{
     box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-
-:root{
---primary:black;
---primary1:white;
---primary2:blue;
+    
 }
 .navbar ul{
-display:flex;
-justify-content: space-evenly;
-background-color:var(--primary);
+    display:flex;
+    justify-content: space-around;
+    background-color:#022540;
+    padding-top:20px;
 }
 .navbar li{
     list-style: none;
-    padding:0px;
     
 }
 .navbar a{
     text-decoration:none;
-    color:var(--primary);
-    display:block;
-    color:var(--primary1);
-    padding-top:10px;
-    border-radius:10px;
-   
-}
-.active{
-    background-color:var(--primary1);
-    text-align:center;
-    border:2px solid var(--primary1);
-    margin-left:-17px;  
-}
-.active a{
-color:var(--primary);
-padding-right:30px;
-padding-left:30px
-
-}
-.link5{
-    text-align:center;
-}
-.link6{
-    text-align:center;
-    
-}
-.link7{
-    text-align:center;
-    
-    
-}
-.nav-section{
-    display:flex;
-    margin-left:175px;
-    margin-top:20px;
-}
-.nav-section a{
-    padding-left:40px;
-    position:relative;
-    top:25px;
-    text-decoration:none;
-    color:var(--primary);
-    
-}
-.digital-health{
-    display:flex;
-    justify-content: space-evenly;
-
-}
-.host-digital{
-    background-color:#0D1846;
-    padding-top:40px;
-    margin-top:30px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-.ra{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-    
-}
-.phy{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-
-
-}
-.fit{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-}
-.talk-us{
-    background-color:#00548C;
     color:white;
-    border-radius:20px;
-    border:2px solid #00548C;
-}
-.talk-us:hover{
-    background-color:#0D1846;
-    cursor:pointer;
-     position: fixed;
-
   
+}
+.header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/standard-page-hero-1600x400/woman-smiling-sat-on-the-car.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height:400px;
 
 }
-.blua{
-    display:flex;
-    width:200px;
-    color:#00548C;
-    margin:0 auto;
-    border-radius: 10px;
-}
-.blua:hover{
-    background-color:#00548C;
-    color:white;
-}
-.host-digital h2{
-    text-align:center;
-}
-.ready{
-    background-color:#DDEDF8;
-    padding:30px;
-    display:flex;
-    justify-content: space-around;
-}
-.quote-button{
-    background-color:#022540;
-    color:white;
+body{
+    font-family:Arial, Helvetica, sans-serif;
     
 }
-#health-bupa{
-    width:60px;
-}
-
-.menubar{
-    visibility: hidden;
-    display:flex;
-    
-    
-}
-
-.searchpa{
-    display:flex;
-    text-align:center;
-}
-#sp{
-    width:150px;
-
-}
-button{
-    padding:15px;
-    width:150px;
-}
-#babap{
-    position:relative;
-    left:70px;
-    width:30px;
-}
-
-.link8sign{
-    text-align:center;
-    position:relative;
-    top:25px;
-    justify-content: space-between;
-    color:white;
-}
-
-.link8{
-display:flex;
-}
-.dental-section{
-    display:flex;
-    justify-content: space-around;
-    position:relative;
-    background-color: #DDEDF8;
-    margin-top:30px;
+.header1{
+    border:2px solid #F5F3F2;;
+    width:450px;
+    height:300px;
     padding:20px;
+    background-color:#fdfdfde4;
+    border-radius:10px;
+    position:relative;
+    left:330px;
+    top:50px;
 }
-
-.link8img img{
+.bupa-design{
+    visibility:hidden;
+}
+.one-health p{
+    text-align: center;
+}
+.one-health h1{
+    text-align:center;
+}
+.header1 h1{
+    color:#0079C8;
+     font-family: "Montserrat", sans-serif;
+     font-weight:700;
+     font-size:56px;
+     line-height: 64px;
+}
+.endo p{
+    text-align:left;
+}
+.endo{
+    background-color:white;
+    padding:10px;
+    
+}
+.base{
+    color:white;
+}
+.base a{
+    color:white;
+    text-decoration: none;
+}
+.base i{
+    font-size:30px;
+}
+.endometriosis{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    /* background-color:#F3F5F8; */
+    
+}
+.base-line{
+    background-color:#0D1846;
+    display:flex;
+    justify-content: center;
+    gap:150px;
+    padding:30px;
+    color:white;
+}
+.base-line a{
+    color:white;
+    text-decoration:none;
+}
+.representative p{
+    text-align:left;
+    position:relative;
+    left:50px;
+}
+.endo-button{
+    width:300px;
+    background-color:white;
+    border:2px solid white;
+     color:#0074BF;
+     font-weight:600;
+    
+}
+.insurance-button1{
+     border:2px solid white;
+    background-color:white;
+    width:300px;
+    color:#0074BF;
+    font-weight:600;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+.header1 p{
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    font-size:18px;
+    position:relative;
+    top:-20px;
+    left:-20px;
+    color:#21272a;
+}
+.items{
     position:relative;
     top:20px;
 }
-#bupasearch{
-    text-align:center;}
-#searches{
+.items img{
+    width:50px;
     position:relative;
-    right:30px;
-    top:15px;
+    top:-20px;
+}
+.foot-pseudo{
+    display:none;
+}
+.ready{
+    display:flex;
+    justify-content: space-around;
+    background-color:#DDEDF8;
+    
+}
+.digit-button{
+    width:300px;
+    padding:10px;
+    border:2px solid #0D1846;
+    background-color:white;
+    /* color:#0074BF; */
+    font-weight:700;
+    font-size:15px;
+}
+.digit-button:hover{
+    background-color: #0D1846;
+    color:white;
+
+}
+.keep-digital{
+    display:flex;
+    justify-content: center;
+    gap:60px;
+    background-color: #F3F5F8;
+}
+
+
+.ready1 p{
+    position:relative;
+    top:-10px;
+    margin:0 auto;
+     text-align: left;
+    
+}
+.dental-care p{
+    position:relative;
+    top:-10px;
+    text-align:left;
+
+}
+.social-h3 i{
+    font-size:30px;
+}
+.quote-button{
+    background-color:#022540;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+     margin-top:40px;
+}
+.items a{
+    text-decoration: none;
+    color:black;
+}
+.menu1 i{
+    display:none;
+}
+.comprehensive{
+    display:flex;
+    justify-content: center;
+    gap:400px;
+}
+.link8{
+    position:relative;
+    left:60px;
+}
+.link7{
+    display:flex;
+    gap:20px;
+    position:relative;
+    left:100px;
+    top:-10px;
+}
+button{
+   width:150px;
+   border-radius:5px;
+}
+.icon img{
+    position:relative;
+    top:10px;
+    left:-20px;
+}
+#rong{
+    position:relative;
+    color:#0074BF;
+}
+.defaqto-star{
+    position:relative;
+    top:-60px;
+}
+.link6{
+    display:flex;
+    gap:20px;
+    position:relative;
+    left:50px;
+}.link5{
+    text-align: center;
+}
+.sign{
+    color:white;
+}
+.active{
+text-align:center;
+
+    
+}
+.active a{
+    position:relative;
+    top:0px;
+    color:white;
+    
+}
+.searchpa{
+    position:relative;
+    
+    
+}
+.link61 i{
+    font-size:25px;
+}
+#contactus{
+    position:relative;
+    top:0px;
+}
+.link71 i{
+    position:relative;
+    top:-20px;
+    font-size:25px;
+}
+.link8img img{
+    position:relative;
+    top:10px;
+}
+#papu{
+    color:#0074BF;
+}
+.nav-section{
+    display:flex;
+    position:absolute;
+    left:200px;
+    gap:40px;
+    font-family: "Montserrat", sans-serif;
+    font-size:17px;
+    font-weight:400px;
+    
+    
+}
+.dental-section{
+    Background-color:#DDEDF8;
+    display:flex;
+    justify-content: space-around;
 }
 .what-help{
+    position:relative;
+    top:0px;
     text-align:center;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .help-today{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:50px;
+    
 }
-.health-button{
-    background-color:#00548C;
-    color:white;
-    width:250px;
-    border-radius:5px;
-    font-size:15px;
-    font-weight:600;
-}
-.health-button:hover{
-    background-color:#022540;
-    cursor:pointer;
-}
+
 .help{
     border:2px solid #F3F5F8;
     background-color:#F3F5F8;
-    padding:30px;
-    font-family: "Roboto", sans-serif;
+    padding:20px;
     
+}
+.supporting{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.dejour{
+    background-color:#F3F5F8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.supporting-health{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    
+}
+.insurance-button{
+    border:2px solid white;
+    background-color:white;
+    width:300px;
+    color:#0074BF;
+    font-weight:600;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+
+}
+.healthy{
+    background-color:white;
+    padding:10px;
+}
+#tc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:600;
+}
+.healthy p{
+    text-align: left;
+    position:relative;
+    top:-20px;
+}
+.health-button{
+    background-color:#0079C8;
+    color:white;
+    padding:10px;
+    border:2px solid #0079C8;
+    border-radius:5px;
+    font-weight:600;
+    
+}
+.routine-health{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+.health-count p{
+    position:relative;
+    top:-10px;
+     text-align: left;
+
+}
+.health-count{
+    background-color:white;
+    padding:10px;
+}
+.insurance-button:hover{
+    text-decoration:underline;
+}
+.help h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+.help a{
+    font-weight:600;
 }
 .dental-cost{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:40px;
+   
+}
+.help p{
+    text-align:left;
 }
 .cost{
-     border:2px solid #F3F5F8;
+    border:2px solid #F3F5F8;
     background-color:#F3F5F8;
-    padding:30px;
-    font-family: "Roboto", sans-serif;
+    padding:20px;
+     
 }
-.cost a{
-    font-weight:600;
-    color:black;
+.cost p{
+    text-align:left;
 }
-.help a{
-    color:black;
-    font-weight:600;
+.host-digital{
+     background-color:#0D1846;
+     
 }
-.header-background{
-    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/mobile-hero-images/woman-smiling-sat-on-the-car-mobile-image.jpg');
-      background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    height: 500px;
-    width: 100%;
-    
-}
-.header1{
-    border:2px solid white;
-    width:500px;
-    border-radius:10px;
-    background-color: rgba(255, 255, 255, 0.79);
-    position:relative;
-    left:40px;
-    top:40px; 
-    padding:50px;
-    font-family: "Montserrat", sans-serif;
-    
-}
-.header1 h1{
-    font-size:50px;
-    color:#0079C8;
-    font-family:
-}
-.health-hdd{
-    display:flex;
-}
-.header1 p{
-    font-size:20px;
-    font-weight:600;
-}
-.supporting1{
-    display:grid;
-    grid-template-columns: repeat(3,450px);
-    align-items: center;
-    justify-content: center;
-    background-color:#F3F5F8;
-}
-.supporting h2{
+.host-digital h2{
     text-align:center;
+    padding-top:20px;
 }
-.insurance-button{
-    background-color:white;
-    border:2px solid white;
-    width:300px;
-    color:#00548C;
-    font-weight:600;
-}
-.insurance-button:hover{
-    text-decoration: underline;
-}
-.support{
-    background-color:#FFFFFF;
-    border:2px solid #FFFFFF;
-}
-.digital-account{
+.digital-health{
+    background-color:#0D1846;
     display:flex;
     justify-content: center;
-    background-color:#F5F5F3;
-    padding-top:60px;
-    gap:50px;
+    gap:30px;
 }
-.simple{
+.digit p{
+    text-align:left;
+}
+.ra{
+    background-color:white;
+    height:150px;
     position:relative;
-    top:40px;
+    top: -25px;
+}
+.ra h4,p{
+    text-align:center;
+    position:relative;
+    top:30px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.dg-account{
-    border:2px solid #022540;
-    background-color:#F5F5F3;
-    width:250px;
-    border-radius:10px;
-    font-weight:600;
+.phy{
+     background-color:white;
+    height:150px;
+    position:relative;
+    top: -25px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    border-right: white;
+    color:white;
+    background-color: #0D1846;
+    position:relative;
+    top:1px;
+    padding-top:30px;
+}
+.p-section{
+    display:flex;
+    position:relative;
+    top:30px;
+    gap:20px;
+   
+}
+.foot{
+     border-right: 1px solid white;
+}
+.phy h4,p{
+    text-align:center;
+     position:relative;
+    top:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fit{
+     background-color:white;
+    height:150px;
+    position:relative;
+    top: -25px;
+}
+.fit h4,p{
+    text-align:center;
+     position:relative;
+    top:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.blua{
+    background-color:#FFFFFF;
+    color:#0079C8;
+    padding:10px;
+    border-radius:5px;
+    position:relative;
+    display:flex;
+    margin:0 auto;
+    top:-20px;
+    width:170px;
+}
+.blua:hover{
+    background-color:#0079C8;
+    color:white;
+    cursor: pointer;
 }
 
-@media(max-width:1103px){
-    #helpsupport{
-        display:none;
-    }
-    #contactus{
-        display:none;
-    }
-    button{
-    padding:0px;
-    width:50px;
-    height:50px;
-    border-radius:10px;
-    position:relative;
-    top:50px;
-    left:120px; 
-}
-#rong{
+@media(max-width:502px){
+ .a{
     display:none;
+ }
+ .b{
+    display:none;
+ }
+ .c{
+    display:none;
+ }
+ .d{
+    display:none;
+ }
+ .e{
+    display:none;
+ }
+ .f{
+    display:none;
+ }
+ .active{
+    display:none;
+ }
+ .link2{
+    display:none;
+ }
+ .link3{
+    display:none;
+
+ }
+ .link4{
+    display:none;
+ }
+ .link5{
+    display:none;
+ }
+ .link6{
+    display:none;
+ }
+ .link6{
+    display:none;
+ }
+ .link7{
+    display:none;
+ }
+ .items img{
+    display:none;
+
+ }
+ .bupa-design{
+    visibility: visible;
+    position:relative;
+    left:-40px;
+    
+ }
+ .bupa-design img{
+    width:200px;
+ }
+ .menu1 i{
+    display:block;
+    color:#022540;
+    font-size:50px;
+}
+.menu1{
+    position:relative;
+    left:-10px;
+}
+.menutag{
+    display:block;
+    color:#022540;
+    position:relative;
+    left:-5px;
+}
+.navbar ul{
+    background-color:white;
+}
+button{
+    background-color:white;
+    border:2px solid white;
 }
 #papu{
     display:none;
 }
-.link6{
-    margin-top:45px;
-    font-size:30px;
-
-}
-.link6 i{
+#rong{
     position:relative;
-    left:120px;
-    font-size:40px;
+    left:-35px;
+    top:15px;
+    font-size:15px;
 }
-.link7{
+.icon img{
     position:relative;
-    top:50px;
-    font-size:30px;
-    left:100px;
-
+    left:10px;
+    top:0px;
+    width:40px;
 }
 .link8{
-display:flex;
-top:27px;
-background-color:blue;
-position:relative;
-left:115px;
-}
-.navbar ul{
-display:flex;
-justify-content: space-evenly;
-background-color:var(--primary);
-padding:30px;
-}
-.active{
-    background-color:var(--primary1);
-    text-align:center;
-    border:2px solid var(--primary1);
     position:relative;
-    left:-30px;
-    top:-27px;
-
+    left:-20px;
+    background-color:#022540;
+    
+}
+.link8 i{
+    display:none;
 }
 .header1{
-    border:2px solid white;
-    width:500px;
-    border-radius:10px;
-    background-color: white;
-    position:relative;
-    left:20px;
-    top:100px; 
+    border:2px solid #F5F3F2;;
+    width:440px;
+    height:200px;
     padding:20px;
+    background-color:#fdfdfde4;
+    border-radius:10px;
+    position:relative;
+    left:30px;
+    top:110px;
+}
+.header1 h1{
+    color:#0079C8;
+     font-family: "Montserrat", sans-serif;
+     font-size:36px;
+     position:relative;
+     top:-50px;
+     
+    
+}
+.header1 p{
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    font-size:20px;
+    position:relative;
+    top:-100px;
+}
+.header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/standard-page-hero-1600x400/woman-smiling-sat-on-the-car.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height:200px;
+    position:relative;
+    top:-60px;
+
 }
 .ready{
+    position:relative;
+    top:80px;
+    display:flex;
+    justify-content: space-around;
     background-color:#DDEDF8;
-    padding:30px;
+    padding:10px;
     display:flex;
     flex-direction:column;
-    flex-wrap:wrap;
 }
 .quote-button{
     background-color:#022540;
     color:white;
-    width:150px;
+    padding:10px;
     border-radius:5px;
-    position:relative;
-    top:4px;
-    left:0px;
-
-    
+     margin-top:0px;
+     border:2px solid #022540;
 }
 .dental-section{
+    Background-color:#DDEDF8;
+    flex-direction:column;
     position:relative;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    top:100px;
-   
+    top:80px;
+    
 }
-.dental-cost{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
+.what-help{
+    position:relative;
+    top:50px;
+    
 }
 .help-today{
     display:flex;
     flex-direction:column;
-    flex-wrap:wrap;
+    
 }
 .health-button{
-    background-color:#00548C;
+    background-color:#0079C8;
     color:white;
-    width:250px;
-    border-radius:5px;
-    font-size:15px;
+    padding:10px;
+    border:2px solid #0079C8;
     font-weight:600;
+    width:200px;
+    
 }
-.what-help{
-    text-align:center;
+.dental-cost{
+    display:flex;
+    flex-direction:column;
+   
+}
+.cost h3{
     font-family:Arial, Helvetica, sans-serif;
-    display:block;
+    font-weight:600;
+    font-size:20px;
+    
 }
 .digital-health{
+    background-color:#0D1846;
+   flex-direction:column;
+}
+.digital{
+    text-align:center;
+
+}
+.ra{
+    background-color:white;
+    height:150px;
+    position:relative;
+    top: -25px;
+    width:360px;
+    margin-left:65px;
+}
+.phy{
+     background-color:white;
+    height:150px;
+    position:relative;
+    top: -55px;
+    width:360px;
+    margin-left:65px;
+}
+.fit{
+     background-color:white;
+    height:150px;
+    position:relative;
+    top: -90px;
+    width:360px;
+    margin-left:65px;
+}
+#black-girl{
+    position:relative;
+    top:-30px;
+}
+#couple{
+     position:relative;
+     top:-65px;
+}
+.blua{
+    background-color:#FFFFFF;
+    color:#0079C8;
+    padding:10px;
+    border-radius:5px;
+    position:relative;
     display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-
+    margin:0 auto;
+    top:-40px;
+    width:180px;
+    text-align:center;
 }
-
-}
-
-@media(max-width:416px){
-    .link8{
-        flex-direction:column;
-        position:relative;
-        top:14px;
-        background-color:white;
-        background-color:none;
-    }
-    .link8sign{
+.supporting{
     text-align:center;
     position:relative;
-    top:12px;
-    justify-content: space-between;
-    background-color:none;
-    display:flex;
-    
-}
-#rong{
-    display:block;
-    position:relative;
-    left:18px;
-}
-.navbar ul{
-display:flex;
-justify-content: space-evenly;
-background-color:var(--primary1);
-}
-.menutag {
-    color:blue;
-}
-
-.sign{
-    color:#022540;
-    position:relative;
-    top:10px;
-}
-.menubar{
-    visibility: visible;
-    flex-direction:column;
-    flex-wrap:wrap;
-    position:relative;
-    left:80px;
-    top:30px;
-}
-.menu1 i{
-    font-size:40px;
-    color:#022540;
-}
-button{
-     position:relative;
-     top:40px;
-     border:2px solid white;
-     background-color:white;
-     
-}
-#papu{
-    display:none;
-}
-.searchpa{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-}
-.icon{
-    display:flex;
-    position:relative;
-    left:30px; 
-    top:-5px;
-}
-.icon img{
-    width:35px;
-    position:relative;
-    left:-10px;
-    
-}
-.active{
-    display:none;
-}
-.link2{
-    display:none;
-}
-.link3{
-    display:none;
-}
-.link4{
-    display:none;
-}
-.link5{
-    display:none;
-}
-.link6{
-    display:none;
-}
-.link7{
-    display:none;
-}
-.header-background{
-    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/mobile-hero-images/woman-smiling-sat-on-the-car-mobile-image.jpg');
-      background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    height: 200px;
-    width: 100%;
-    position:relative;
-    top:-60px;
-    
-}
-.header1{
-    border:2px solid white;
-    width:420px;
-    border-radius:10px;
-    background-color:  rgba(255, 255, 255, 0.79);
-    position:relative;
-    left:10px;
-    top:140px; 
-    padding:10px;
-}
-.header1 h1{
-    font-size:60px;
-    color:;
-}
-.header1 p{
-    font-size:25px;
-    font-weight:600;
-}
-#health-bupa{
-    width:60px;
-    position:relative;
-    top:-80px;
-    left:-160px;
-}
-.nav-section{
-    display:flex;
+    top:-30px;
    
 }
-.items a{
-    display:none;
+.supporting-health{
+    display:flex;
+    flex-direction:column;
+    
 }
-.items b{
-    display:none;
+.routine-health{
+    display:flex;
+    flex-direction:column;
+   
 }
-.items c{
-    display:none;
+.dejour{
+    background-color:#F3F5F8;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
-.items d{
-    display:none;
+.healthy{
+    background-color:white;
+    padding:10px;
+    
+    
 }
-.items e{
-    display:none;
+.healthy h3{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:25px;
+     position:relative;
+     left:60px;
 }
-.items f{
+.healthy h5{
+    position:relative;
+     left:60px;
+
+}
+.healthy img{
+    display:flex;
+    margin:0 auto;
+}
+.healthy p{
+    position:relative;
+    left:60px;
+    
+}
+.insurance-button{
+    border:2px solid white;
+    background-color:white;
+    width:350px;
+    color:#0074BF;
+    font-weight:600;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    position:relative;
+    left:50px;
+
+}
+.insurance-button1{
+     border:2px solid white;
+    background-color:white;
+    width:300px;
+    color:#0074BF;
+    font-weight:600;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+.health-count img{
+    display:flex;
+    margin:0 auto;
+}
+.health-count p{
+     position:relative;
+    left:60px;
+
+}
+.health-count h3{
+       font-family: Arial, Helvetica, sans-serif;
+     font-size:25px;
+     position:relative;
+     left:60px;
+
+}
+.health-count h5{
+      position:relative;
+     left:60px;
+
+}
+.keep-digital{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.keep-digital p{
+    text-align:left;
+    white-space: nowrap;
+
+}
+.digit-button{
+    display:flex;
+    margin:0 auto;
+}
+#lappy{
+    width:500px;
+    margin-left:10px;
+
+}
+.endometriosis{
+    display:flex;
+    flex-direction:column;
+}
+.endo img{
+    display:flex;
+    margin-left:50px;
+    width:450px;
+}
+.endo h3{
+    margin-left:60px;
+}
+.endo p{
+    margin-left:60px;
+}
+.endo-button{
+    width:300px;
+    background-color:white;
+    border:2px solid white;
+     color:#0074BF;
+     font-weight:600;
+     margin-left:30px;
+     font-size:17px;
+    
+}
+.comprehensive{
+    flex-direction:column;
+    margin-left:100px;
+
+}
+.defaqto-star{
+    position:relative;
+    top:-450px;
+    left:-30px;
+}
+.representative{
+    text-align:left;
+    position:relative;
+    top:-450px;
+}
+.representative p{
+    text-align:left;
+    position:relative;
+    left:30px;
+}
+.base-line{
+    background-color:#0D1846;
+   position:relative;
+   top:-400px;
+   display:flex;
+   flex-direction:column;
+}
+.base a{
+    /* display:none; */
+}
+.base h3{
+    /* display:flex;
+    flex-direction:column; */
+
+}
+.social-media{
+    position:relative;
+    left:0px;
+    display:flex;
+    gap:30px;
+    
+}
+/* .social-media img{
+    display:flex;
+} */
+.social-h3{
+    font-size:10px;
+    
+
+}
+ .social-media2{
+    display:flex;
+    position:relative;
+    top:80px;
+    left:-150px;
+ }
+ .social-media2 img{
+    width:40px;
+    display:flex;
+    gap:20px;
+ }
+ .base-hea{
+    color:white;
+ }
+ .base-hea a{
+    text-decoration:none;
+    color:white;
+
+ }
+ .base-mental{
+    color:white;
+    position:relative;
+    top:-120px;
+ }
+ .base-mental a{
+    color:white;
+    text-decoration:none;
+ }
+ .base-info{
+    position:relative;
+    top:-250px;
+    color:white;
+ }
+ .base-info a{
+    color:white;
+ }
+ .base-bupa{
+    position:relative;
+    top:-350px;
+    color:white;
+ }
+ .base-bupa a{
+    color:white;
+    text-decoration:none;
+ }
+ footer{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    border-right: white;
+    color:white;
+    background-color: #0D1846;
+    position:relative;
+    top:-700px;
+    padding-top:30px;
+}
+.p-section{
+    display:flex;
+    position:relative;
+    top:30px;
+    font-size:8px;
+    left:-100px;
+   
+}
+.foot-pseudo{
+    display:block;
+    position:relative;
+    top:100px;
+    left:100px;
+}
+.foot img{
     display:none;
+     
+}
+}
+@media(max-width:430px){
+    #lappy{
+    width:450px;
+    margin-left:30px;
+
+}
+
+}
+
+@media(max-width:415px){
+ .header1{
+    position:relative;
+    left:20px;
+    width:430px;
+ }
+ .header1 p{
+    font-size:15px;
+ }
+ .header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/standard-page-hero-1600x400/woman-smiling-sat-on-the-car.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height:200px;
+    position:relative;
+    top:-60px;
+    width:460px;
+
+}
+.ready{
+    position:relative;
+    top:80px;
+    display:flex;
+    justify-content: space-around;
+    background-color:#DDEDF8;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    
+}
+.phy{
+     background-color:white;
+    height:150px;
+    position:relative;
+    top: -55px;
+    width:360px;
+    margin-left:50px;
+}
+.ra{
+    background-color:white;
+    height:150px;
+    position:relative;
+    top: -25px;
+    width:360px;
+    margin-left:50px;
+}
+.fit{
+     background-color:white;
+    height:150px;
+    position:relative;
+    top: -90px;
+    width:360px;
+    margin-left:50px;
+}
+#lappy{
+    width:450px;
+    margin-left:5px;
+
+}
+/* .endo img{
+    display:flex;
+    margin-left:20px;
+    width:450px;
+    display:flex;
+} */
+.representative p{
+    text-align:left;
+    position:relative;
+    left:0px;
+}
+.digit-button{
+    display:flex;
+    margin:0 auto;
+    position:relative;
+    left:-80px;
+}
+.endo img{
+    display:flex;
+    margin-left:20px;
+    width:400px;
+}
+.digit p{
+    text-align:left;
 }
 .quote-button{
     background-color:#022540;
     color:white;
-    width:150px;
+    padding:10px;
     border-radius:5px;
-    position:relative;
-    top:4px;
-    left:0px;
+     margin-top:0px;
+     border:2px solid #022540;
+     position:relative;
+     left:30px;
+}
     
+}
+@media(max-width:322px){
+
+    .header1{
+    position:relative;
+    left:20px;
+    width:200px;
+ }
+ .header1 p{
+    font-size:15px;
+ }
+ .header-background{
+    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/standard-page-hero-1600x400/woman-smiling-sat-on-the-car.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height:200px;
+    position:relative;
+    top:-60px;
+    width:300px;
+
 }
 .ready{
+    position:relative;
+    top:80px;
+    display:flex;
+    justify-content: space-around;
     background-color:#DDEDF8;
-    padding:30px;
+    padding:10px;
     display:flex;
     flex-direction:column;
-    flex-wrap:wrap;
-    position:relative;
-    top:150px;
-}
-.dental-section{
-    position:relative;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    top:100px;
-   
-}
-.dental-cost{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-}
-.health-button{
-    background-color:#00548C;
-    color:white;
-    width:250px;
-    border-radius:5px;
-    font-size:15px;
-    font-weight:600;
-    margin-left:-120px;
-    
-}
-.digital-health{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    
-
-}
-.digital-health img{
     margin:0 auto;
-    display:flex;
-}
-
-/* .help-today{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    margin-top:100px;
-} */
- .ra{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-    margin-left:90px;
     
 }
 .phy{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
+     background-color:white;
+    height:150px;
     position:relative;
-    top:-5px;
-    text-align:center;
-    margin-left:90px;
+    top: -55px;
+    width:360px;
+    margin-left:50px;
+}
+.ra{
+    background-color:white;
+    height:150px;
+    position:relative;
+    top: -25px;
+    width:360px;
+    margin-left:50px;
 }
 .fit{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
+     background-color:white;
+    height:150px;
     position:relative;
-    top:-5px;
-    text-align:center;
-    margin-left:90px;
+    top: -90px;
+    width:360px;
+    margin-left:50px;
 }
-.blua{
+#lappy{
+    width:450px;
+    margin-left:5px;
+
+}
+
+.representative p{
+    text-align:left;
+    position:relative;
+    left:0px;
+}
+.digit-button{
     display:flex;
-    width:150px;
-    color:#00548C;
     margin:0 auto;
     position:relative;
-    top:-10px;
-    left:30px;
-    text-align:center;
-    padding-top:10px;
+    left:-80px;
 }
-.supporting1{
+.endo img{
     display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    gap:20px;
+    margin-left:20px;
+    width:400px;
 }
-.insurance-button{
-    background-color:white;
-    border:2px solid white;
-    width:250px;
-    color:#00548C;
-    font-weight:600;
-    position:relative;
-    left:0px;
-    top:0px;
-}
-.elder{
-    position:relative;
-    left:0px;
-    width:370px;
-    
-}
-.digital-account{
-    display:flex;
-    flex-direction:column;
-    
-}
-.dg-account{
-    border:2px solid #022540;
-    background-color:#F5F5F3;
-    width:250px;
-    border-radius:10px;
-    position:relative;
-    top:0px;
-    left:10px;
-    border-radius:5px;
-    
-
-}
-.account img{
-    
-}
-.simple{
-    position:relative;
-    top:40px;
-    padding:10px;
-}
-
-}
-@media(max-width:391px){
-    .link8{
-        flex-direction:column;
-        position:relative;
-        top:14px;
-        background-color:white;
-        background-color:none;
-    }
-    .link8sign{
-    text-align:center;
-    position:relative;
-    top:12px;
-    justify-content: space-between;
-    background-color:none;
-    display:flex;
-    
-}
-#rong{
-    display:block;
-    position:relative;
-    left:18px;
-}
-.navbar ul{
-display:flex;
-justify-content: space-evenly;
-background-color:var(--primary1);
-}
-.menutag {
-    color:blue;
-}
-
-.sign{
-    color:#022540;
-    position:relative;
-    top:10px;
-}
-.menubar{
-    visibility: visible;
-    flex-direction:column;
-    flex-wrap:wrap;
-    position:relative;
-    left:80px;
-    top:30px;
-}
-.menu1 i{
-    font-size:40px;
-    color:#022540;
-}
-button{
-     position:relative;
-     top:40px;
-     border:2px solid white;
-     background-color:white;
-     
-}
-#papu{
-    display:none;
-}
-.searchpa{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-}
-.icon{
-    display:flex;
-    position:relative;
-    left:30px; 
-    top:-5px;
-}
-.icon img{
-    width:35px;
-    position:relative;
-    left:-10px;
-    
-}
-.active{
-    display:none;
-}
-.link2{
-    display:none;
-}
-.link3{
-    display:none;
-}
-.link4{
-    display:none;
-}
-.link5{
-    display:none;
-}
-.link6{
-    display:none;
-}
-.link7{
-    display:none;
-}
-.header-background{
-    background-image:url('https://www.bupa.co.uk/~/media/Images/decorative-images/generic-site-images/mobile-hero-images/woman-smiling-sat-on-the-car-mobile-image.jpg');
-      background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    height: 200px;
-    width: 100%;
-    position:relative;
-    top:-60px;
-    
-}
-.header1{
-    border:2px solid white;
-    width:420px;
-    border-radius:10px;
-    background-color:  rgba(255, 255, 255, 0.79);
-    position:relative;
-    left:10px;
-    top:140px; 
-    padding:10px;
-}
-.header1 h1{
-    font-size:60px;
-    color:;
-}
-.header1 p{
-    font-size:25px;
-    font-weight:600;
-}
-#health-bupa{
-    width:60px;
-    position:relative;
-    top:-80px;
-    left:-160px;
-}
-.nav-section{
-    display:flex;
-   
-}
-.items a{
-    display:none;
-}
-.items b{
-    display:none;
-}
-.items c{
-    display:none;
-}
-.items d{
-    display:none;
-}
-.items e{
-    display:none;
-}
-.items f{
-    display:none;
+.digit p{
+    text-align:left;
 }
 .quote-button{
     background-color:#022540;
     color:white;
-    width:150px;
+    padding:10px;
     border-radius:5px;
-    position:relative;
-    top:4px;
-    left:0px;
-    
+     margin-top:0px;
+     border:2px solid #022540;
+     position:relative;
+     left:30px;
 }
-.ready{
-    background-color:#DDEDF8;
-    padding:30px;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    position:relative;
-    top:150px;
-}
-.dental-section{
-    position:relative;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    top:100px;
-   
-}
-.dental-cost{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-}
-.health-button{
-    background-color:#00548C;
-    color:white;
-    width:250px;
-    border-radius:5px;
-    font-size:15px;
-    font-weight:600;
-    margin-left:-120px;
-    
-}
-.digital-health{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    
-
-}
-.digital-health img{
-    margin:0 auto;
-    display:flex;
-}
-
-/* .help-today{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    margin-top:100px;
-} */
- .ra{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-    margin-left:90px;
-    
-}
-.phy{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-    margin-left:90px;
-}
-.fit{
-    width:360px;
-    background-color:white;
-    border:2px solid white;
-    height:100px;
-    position:relative;
-    top:-5px;
-    text-align:center;
-    margin-left:90px;
-}
-.blua{
-    display:flex;
-    width:150px;
-    color:#00548C;
-    margin:0 auto;
+.bupa-design img{
+    width:100px;
+ }
+ .icon img{
     position:relative;
     top:-10px;
-    left:30px;
-    text-align:center;
-    padding-top:10px;
+    left:-50px;
 }
-.supporting1{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    gap:20px;
-}
-.insurance-button{
-    background-color:white;
-    border:2px solid white;
-    width:250px;
-    color:#00548C;
-    font-weight:600;
+#rong{
     position:relative;
-    left:0px;
-    top:0px;
+    left:-100px;
+    top:15px;
+    font-size:15px;
 }
-.elder{
+.link8{
     position:relative;
-    left:0px;
-    width:370px;
+    left:-80px;
+    top:-20px;
     
 }
-.elder p{
-    
-}
-.elder img{
-    margin-left:0px;
-}
-.digital-account{
-    display:flex;
-    flex-direction:column;
-    
-}
-.dg-account{
-    border:2px solid #022540;
-    background-color:#F5F5F3;
-    width:250px;
-    border-radius:10px;
+ .menu1 i{
+    display:block;
+    color:#022540;
+    font-size:40px;
     position:relative;
-    top:0px;
-    left:10px;
-    border-radius:5px;
-    
-
+    left:-50px;
 }
-.account img{
+.header1 h1{
+    color:#0079C8;
+     font-family: "Montserrat", sans-serif;
+     font-size:22px;
+     position:relative;
+     top:-50px;
+     
     
-}
-.simple{
-    position:relative;
-    top:40px;
-    padding:10px;
 }
 
 }
